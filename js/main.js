@@ -39,13 +39,7 @@ const validateInputs = () => {
   }
 }
 
-description.addEventListener("keydown", () =>
-  description.classList.remove("is-invalid")
-);
-calories.addEventListener("keydown", () =>
-  calories.classList.remove("is-invalid")
-);
+description.addEventListener("keydown", () => description.classList.remove("is-invalid"));
+calories.addEventListener("keydown", () => calories.classList.remove("is-invalid"));
 carbs.addEventListener("keydown", () => carbs.classList.remove("is-invalid"));
-protein.addEventListener("keydown", () =>
-  protein.classList.remove("is-invalid")
-);
+protein.addEventListener("keydown", () => protein.classList.remove("is-invalid"));
